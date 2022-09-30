@@ -1,12 +1,304 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <!-- SYLESHEETS
+            ============================================= -->
+    <link rel="stylesheet" href="css/aos.css" type="text/css">
+    <link rel="stylesheet" href="css/style1.css" type="text/css">
+    <!-- <link rel="stylesheet" href="css/swiper.min.css" type="text/css"> -->
+    <!-- <link rel="stylesheet" href="css/lightgallery.min.css" type="text/css"> -->
+    <link rel="stylesheet" href="css/plugin.css" type="text/css" />
+    <link rel="stylesheet" href="css/sm-core-css.css" type="text/css" />
+    <link rel="stylesheet" href="css/sm-clean.css" type="text/css" />
+    <link rel="stylesheet" href="css/thaw-flex.css" type="text/css" />
+    <link rel="stylesheet" href="css/font.css" type="text/css" />
+    <!-- <link rel="stylesheet" href="css/fontawesome.min.css" type="text/css" /> -->
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="css/responsive.css" type="text/css" />
+    <link rel="icon" href="img/fav-icon.png">
+    <script>
+        document.documentElement.className = 'js';
+
+    </script>
+    <!-- EXTERNAL STYLES
+            ============================================= -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+    <!-- DOCUMENT TITLES
+            ============================================= -->
     <title>We Want Techno - Home</title>
 </head>
-<body>
-    Here's the site!
+
+<body class="demo-1">
+    <!--MAIN WRAPPER START-->
+    <div class="main-wrapper clearfix">
+        <!-- HEADER START
+                ============================================= -->
+        <header id="header" class="header-style-1">
+            <div class="container">
+                <div class="row clearfix">
+                    <div class="header-clear clearfix">
+                        <div class="header-content-left clearfix">
+                            <!-- LOGO START
+                                ============================================= -->
+                            <div class="logo">
+                                <a href="index.html"><img src="img/WWT-Site-Thumb.png" alt="We Want Techno Logo" /></a>
+                            </div>
+                            <!-- LOGO END -->
+                        </div>
+                        <div class="header-content-center clearfix">
+                            <!-- NAVIGATION START============================================= -->
+                            <nav class="main-nav">
+                                <!-- Mobile menu toggle button (hamburger/x icon) -->
+                                <!-- <input id="main-menu-state" type="checkbox" />
+                                <label class="main-menu-btn sub-menu-trigger" for="main-menu-state">
+                                    <span class="main-menu-btn-icon"></span> Toggle main menu visibility
+                                </label> -->
+                                <!-- Sample menu definition -->
+                                <!-- <ul id="main-menu" class="sm sm-clean">
+                                    <li class="menu-item"><a href="index.html" class="menu-link active">Home</a></li>
+                                    <li class="menu-item"><a href="about.html" class="menu-link">About</a></li>
+                                    <li class="menu-item"><a href="event.html" class="menu-link">Event</a></li>
+                                    <li class="menu-item"><a href="blog.html" class="menu-link">News</a></li>
+                                    <li class="menu-item"><a href="contact.html" class="menu-link">Contact</a></li>
+                                </ul>
+                            </nav> -->
+                            <!-- NAVIGATION END -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- HEADER END -->
+        <!-- SECTION -->
+        <section class="content">
+            <!-- MAIN VIDEO BACKGROUND -->
+            <div class="main-video">
+                <div class="image-background">
+                </div>
+                <div class="image-title">
+                    <p>Music - Art - Culture - Lifestyle</p>
+                    <p> See Upcoming Events Below</p>
+                    <a href="https://posh.vip/e/we-want-techno?t=website" class="button-basic-1" data-aos="fade-up">All
+                        Events</a>
+                </div>
+                <div class="video-background">
+                    <video autoplay muted loop id="myVideo">
+                        <source src="img/concert-loop.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+            <!-- MAIN VIDEO BACKGROUND END -->
+            <!-- GlOBAL BLOCK -->
+            <div class="global-block">
+                <div class="container">
+                    <div class="global-block-wrap grid grid-cols-12 gap-8">
+                        <div class="global-img col-span-5 sm:col-span-12 res:col-span-12">
+                            <div class="item-content">
+                                <div class="img-header">
+                                    <a class="pattern" href="https://posh.vip/e/we-want-techno?t=website">
+                                        <img src="img/WWT_3.jpg" alt="event-img">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="global-counter col-span-7 sm:col-span-12 res:col-span-12">
+                            <div class="global-title">
+                                <h2 data-aos="fade-up">Trilago &amp; Knostalgia</h2>
+                                <h5 data-aos="fade-up">/ 14 OCTOBER 2022</h5>
+                                <p class="dugem-text" data-aos="fade-up">Producer/DJ's: Trilago, Knostalgia, will be
+                                    playing New Brunswick's "George Street Ale House" featuring custom visuals and
+                                    decorated room.</p>
+                            </div>
+                            <div class="global-buy" data-aos="fade-up">
+                                <a href="https://posh.vip/e/we-want-techno?t=website" class="button-basic-1">View
+                                    Event</a>
+                                <a href="https://posh.vip/e/we-want-techno?t=website" class="button-basic-2">Get
+                                    Ticket</a>
+                            </div>
+                            <div class="global-countdown">
+                                <div class="event-counter clearfix">
+                                    <div class="countdown">
+                                        <div class="days-count float">
+                                            <h3 id="days"></h3>
+                                            <span>Days</span>
+                                        </div>
+                                        <div class="hours-count float">
+                                            <h3 id="hours"></h3>
+                                            <span>Hours</span>
+                                        </div>
+                                        <div class="minutes-count float">
+                                            <h3 id="minutes"></h3>
+                                            <span>Minutes</span>
+                                        </div>
+                                        <div class="seconds-count float">
+                                            <h3 id="seconds">
+                                            </h3>
+                                            <span>Seconds</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- GlOBAL BLOCK END -->
+            <!-- TABLE EVENTS -->
+            <div class="table-events">
+                <div class="background-overlay"></div>
+                <div class="container">
+
+                    <div class="the-title text-center" data-aos="fade-up">
+                        <h5 class="head-title-2"> / EVENTS </h5>
+                        <h2 class="head-title-1"> Upcoming Events
+                            <span class="title-end">.</span>
+                        </h2>
+                        <p class="dugem-text"> All Events 21+ </p>
+                    </div>
+                    <table class="event">
+                        <tr>
+                            <td>Date</td>
+                            <td class="event-thumb-head"></td>
+                            <td>Artist</td>
+                            <td>Event</td>
+                            <td>Ticket</td>
+                        </tr>
+                        <tr class="space">
+                            <td>
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="event-date">10/14/22</td>
+                            <td class="event-thumb">
+                                <a href="https://posh.vip/e/we-want-techno?t=website">
+                                    <img width="70" height="100" src="img/WWT-3-Thumb.png" alt="table-1">
+                                </a>
+                            </td>
+                            <td class="event-artist">Trilago &amp; Knostalgia</td>
+                            <td class="event-title">
+                                <a href="https://posh.vip/e/we-want-techno?t=website">George Street Ale House</a>
+                            </td>
+                            <td class="event-ticket-link">
+                                <a href="https://posh.vip/e/we-want-techno?t=website"
+                                    class="button button-white rsvp">INFO</a>
+                                <a href="https://posh.vip/e/we-want-techno?t=website" class="button button-white">BUY
+                                    TICKET</a>
+                            </td>
+                        </tr>
+                        <tr class="space">
+                            <td>
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="event-date">11/11/22</td>
+                            <td class="event-thumb">
+                                <a href="https://posh.vip/e/we-want-techno?t=website">
+                                    <img width="70" height="100" src="img/WWT-Blur-Thumb.png" alt="table-2">
+                                </a>
+                            </td>
+                            <td class="event-artist">Trilago &amp; Guest</td>
+                            <td class="event-title">
+                                <a href="https://posh.vip/e/we-want-techno?t=website">George Street Ale House</a>
+                            </td>
+                            <td class="event-ticket-link">
+                                <span class="sold">NOT AVAILABLE</span>
+                            </td>
+                        </tr>
+                        <tr class="space">
+                            <td>
+                                &nbsp;
+                            </td>
+                        </tr>
+
+                    </table>
+                    <div class="event-mobile">
+                        <ul class="event-list">
+                            <li>
+                                <span class="img-thumb">
+                                    <a href="https://posh.vip/e/we-want-techno?t=website">
+                                        <img width="70" height="100" src="img/WWT-3-Thumb.png" alt="table-1-1">
+                                    </a>
+                                </span>
+                                <p><span>Date :</span> <a href="#">10/14/22</a></p>
+                                <p><span>Artist :</span> <a href="#">Trilago &amp; Knostalgia</a></p>
+                                <p><span>Venue :</span> <a href="#">George Street Ale House</a></p>
+                                <p>
+                                    <a href="https://posh.vip/e/we-want-techno?t=website" class="button-basic-1">BUY
+                                        TICKET</a>
+                                </p>
+                            </li>
+                            <li>
+                                <span class="img-thumb">
+                                    <a href="https://posh.vip/e/we-want-techno?t=website">
+                                        <img width="70" height="100" src="img/WWT-Blur-Thumb.png" alt="table-1-5">
+                                    </a>
+                                </span>
+                                <p><span>Date :</span> <a href="#">11/11/2022</a></p>
+                                <p><span>Artist :</span> <a href="#">Trilago &amp; Special Guest</a></p>
+                                <p><span>Venue :</span> <a href="#">George Street Ale House</a></p>
+                                <span class="sold">Tickets Not Available</span> </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="button-view text-center">
+                        <a href="https://posh.vip/e/we-want-techno?t=website" class="button-basic-1"
+                            data-aos="fade-up">VIEW ALL EVENTS</a>
+                    </div>
+                </div>
+            </div>
+            <!-- TABLE EVENTS END -->
+        </section>
+        <!-- FOOTER START
+                ============================================= -->
+        <footer id="footer" class="footer clearfix">
+            <div class="footer-wrap clearfix">
+                <div class="footer-bottom clearfix">
+                    <div class="container">
+                        <div class="row">
+                            <div class="foot-col column column-1 text-center clearfix">
+                                <div class="logo-footer">
+                                    <a href="index.html"><img src="img/WWT-Site-Thumb.png" alt="Logo-Footer" /></a>
+                                </div>
+                            </div>
+
+                            <div class="foot-col column column-1 text-center clearfix">
+                                <div class="social-footer">
+                                    <ul>
+                                        <li class="soc-icon"><a target="_blank"
+                                                href="https://www.instagram.com/we_want_techno_events/"><i
+                                                    class="icon icon-themify-13"></i>Instagram</a></li>
+                                        <li class="soc-icon"><a href="mailto:events@wewanttechno.com"><i
+                                                    class="icon icon-simple-line-icons-19"></i>E-Mail</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- FOOTER END -->
+    </div>
+    <!-- MAIN WRAPPER END -->
+    <!-- FOOTER SCRIPTS
+            ============================================= -->
+    <script src="js/jquery.3.5.1.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/countdown-dugem.js"></script>
+    <script src="js/dugem-lightbox.js"></script>
+    <script src="js/dugem-carousel.js"></script>
+    <script type="js/aos.js"></script>
+    <script src="js/demo1.js"></script>
+    <script src="js/jquery.smartmenus.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/lightgallery.min.js"></script>
+    <script src="js/aos.js"></script>
+
 </body>
+
 </html>
